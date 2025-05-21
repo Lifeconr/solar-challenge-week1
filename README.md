@@ -1,18 +1,16 @@
 # solar-challenge-week1
-A project to learn Git and CI/CD workflows.
 
-Overview
-This project introduces version control with Git and continuous integration/continuous deployment (CI/CD) using a simple Python application. It’s part of a learning series to build practical development skills.
 
-Description:
-This repository contains Week 1 of the MoonLight Energy Solutions Solar Challenge. It includes:
+## Overview
+This project performs Exploratory Data Analysis (EDA) on solar radiation datasets from Benin, Sierra Leone, and Togo to identify high-potential regions for solar investments, supporting MoonLight Energy Solutions' sustainability goals.
 
-✅ Git & Python environment setup (setup-task branch merged to main)
+## Directory Structure
+- `data/`: Contains raw and cleaned datasets (ignored by `.gitignore`).
+- `notebooks/`: Jupyter notebooks for EDA (`benin_eda.ipynb`, `sierraleone_eda.ipynb`, `togo_eda.ipynb`).
+- `src/`: Python scripts with modular code (`eda_class.py`).
+- `interim_report.md`: Interim submission report.
 
-✅ EDA and data cleaning for the Benin dataset (eda-benin branch merged to main)
-
-✅ Proper folder structure, .gitignore, and CI workflow via GitHub Actions
-
-✅ Jupyter Notebook with exploratory data analysis and initial insights
-
-✅ Clear commit history and descriptive messages following best Git practices
+## Setup
+1. Activate the virtual environment:
+   ```powershell
+   .\tenx\.venv\Scripts\activate
